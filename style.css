@@ -1,0 +1,52 @@
+body{
+  padding:0;
+  margin: 0;
+}
+.navbar{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  left: 0;
+  background-color: green;
+}
+#menu-title{
+  margin-right: auto;
+  padding-left: 10px;
+}
+.menu-button{
+  padding: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+}
+#sign-in{
+  margin-right: 10px;
+}
+.menu-button:active{
+  transform: scale(1.2);
+}
+.menu-button:hover{
+  background-color: #000;
+  color: #fff;
+}
+.options{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  align-items: center;
+  margin-right: auto;
+}
+.menu{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+}
