@@ -1,40 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-    <link href="style.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Oi&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Oi&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Indie+Flower&family=Oi&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Oi&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
   </head>
-  <body> 
+  <body>
     <nav class="navbar">
       <h1 id="menu-title">Bruno<span id="word-coffee">Coffee</span></h1>
       <ul class="options">
-        <li class="single-opt">Home</li>
-        <li class="single-opt">Products</li>
-        <li class="single-opt">Location</li>
-        <li class="single-opt">Contact</li>
+        <a href="#menu-id"><li class="single-opt">Home</li></a>
+        <a class="single-opt" href="#coffee-id"><li>Products</li></a>
+        <a href="#footer-id"><li class="single-opt">Contact</li></a>
       </ul>
-      <button class="nav-button" id="order-coffe">Order Coffe</button> 
+      <button class="nav-button" id="order-coffe">Order Coffe</button>
       <button class="nav-button" id="sign-in">Sign In</button>
     </nav>
-    <div class="menu">
+    <div id="menu-id" class="menu">
       <div class="menu-elements">
-      <p>Complete handmade coffe</p>
-      <h1>Made With Passion</h1> <br>
-      <h2>Best Coffee Center in city</h2>
-      <p class="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto mollitia facere quasi modi laboriosam impedit dolorem, expedita iste dolorum quo rem consectetur placeat ex, veniam eos neque? Atque, deserunt aliquam!</p>
-      <div class="menu-buttons">
-        <button class="menu-button donate">Donate</button><br>
-        <button class="menu-button visit">Visit Center</button>
+        <p>Completely handmade coffe</p>
+        <h1>Made With Passion</h1>
+        <br />
+        <h2>
+          Let The Coffee Define <br />
+          Your Day
+        </h2>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+          mollitia facere quasi modi laboriosam impedit dolorem, expedita iste
+          dolorum quo rem consectetur placeat ex, veniam eos neque? Atque,
+          deserunt aliquam!
+        </p>
+        <div class="menu-buttons">
+          <button class="menu-button donate">Donate</button>
+          <button class="menu-button visit">Visit Center</button>
         </div>
       </div>
-      <img id="coffee-img" src="pictures/coffee.jpg" height="250" width="450">
+      <img id="coffee-img" src="pictures/coffee2.jpg" />
     </div>
-  <div class="coffee">
-    <div class="variations">Cappuccin</div>
-    <div class="variations">Frape</div>
-    <div class="variations">Macciato</div>
-  </div>
+
+    <div id="coffee-id" class="coffee">
+      <div id="cappuccino-container" class="variations">
+        <div class="container">
+          <h1>Cappuccino</h1>
+          <img src="pictures/cappuccino.jpg" class="types" />
+          <div class="coffee-info">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+              labore velit, sed, nam inventore odit, corrupti repudiandae
+              praesentium distinctio non saepe? Commodi eius earum optio, unde
+              expedita provident ab inventore?
+            </p>
+            <div class="coffee-price">
+              <span>$15</span>
+              <button>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="variations" id="frappe-container">
+        <div class="container">
+          <h1>Frappé</h1>
+          <img src="pictures/frappe.jpg" alt="" class="types" />
+          <div class="coffee-info">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              necessitatibus quod odio delectus facere quam, error tempore
+              deleniti rerum at. Voluptas repudiandae praesentium odit fugit
+              optio vitae cupiditate unde perspiciatis.
+            </p>
+            <div class="coffee-price">
+              <span>20$</span>
+              <button>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="variations" id="macchiato-container">
+        <div class="container">
+          <h1>Macchiato</h1>
+          <img src="pictures/macchiato.jpg" alt="" class="types" />
+          <div class="coffee-info">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+              officia nesciunt reprehenderit, aperiam corrupti recusandae
+              ducimus saepe, sequi quod repellendus assumenda optio odio porro
+              minima. Ullam ut qui ex dolorem.
+            </p>
+            <div class="coffee-price">
+              <span>$10</span>
+              <button>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-id" class="footer">
+      <div class="about">
+        <h1>About us</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          molestias id saepe quaerat facilis, nemo hic voluptate dicta adipisci
+          velit repellat veniam soluta? Aut aliquam, fuga tenetur maiores esse
+          sint.
+        </p>
+        <div class="icons">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="contact-us">
+        <h1>Contact Us</h1>
+        <ul>
+          <li><i class="fa-brands fa-whatsapp"></i> 094 495 954</li>
+          <li><i class="fa-solid fa-map-pin"></i> Baker Street</li>
+          <li><i class="fa-regular fa-envelope"></i> BruceCoffe@gmail.com</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
