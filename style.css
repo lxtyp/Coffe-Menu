@@ -225,6 +225,13 @@ h2 {
 .footer {
   min-height: 50vh;
   display: grid;
+  background: #241812;
+  background: linear-gradient(
+    105deg,
+    rgba(36, 24, 18, 1) 25%,
+    rgba(20, 16, 15, 1) 78%,
+    rgba(20, 16, 15, 1) 0%
+  );
   grid-template-columns: repeat(2, 1fr);
 
   font-size: 20px;
@@ -275,6 +282,12 @@ h2 {
   font-weight: 600;
   margin-bottom: 15px;
   border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+.coffee-price button:hover {
+  background-color: #1b1b1b;
+  color: #efebe9;
 }
 .coffee-price span {
   font-size: 30px;
