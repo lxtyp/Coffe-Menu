@@ -271,14 +271,18 @@ h2 {
 .coffee-price {
   margin: 0;
   display: flex;
+
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: auto;
 }
 .coffee-price button {
+  margin-left: 10%;
+  max-width: 100px;
+  min-width: 40px;
   padding: 10px 30px;
   font-weight: 600;
-  margin-left: 50%;
   margin-bottom: 15px;
   border-radius: 30px;
   transition: background-color 0.3s ease;
